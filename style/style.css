@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-family: sans-serif;
+}
+
+nav{
+   position: fixed;
+    top: 0;
+    left: 0;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
 .screen{
     width: 100%;
     height: 100vh;
@@ -29,4 +45,14 @@
     transform: translate(-50%, -50%);
 }
 
-.content 
+.content h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: yellow;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.yellow h1{
+    color: red;
+}
