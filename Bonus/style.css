@@ -18,11 +18,11 @@ nav{
     z-index: 1000;
 }
 
-ul{
+nav ul{
     list-style: none;
 }
 
-li{
+nav li{
     display: inline-block;
 
     width: 50px;
@@ -39,8 +39,12 @@ li{
     text-align: center;
 }
 
-li:hover{
+nav li:hover{
     box-shadow: 1px 10px 20px black;
+}
+
+nav li:active{
+    background-color: gray;
 }
 
 nav a{
